@@ -89,6 +89,7 @@ mod 'jpadams-puppet_vim_env', '2.3.0' # There is a bug in 2.4.1
 mod 'jriviere-windows_ad', '0.3.2'
 mod 'kogitoapp-gitea', '1.0.4'
 mod 'lwf-remote_file', '1.1.3'
+mod 'pltraining-rbac', '0.0.8'
 mod 'puppet-wget', '2.0.1'
 mod 'puppet-php', '6.0.2'
 mod 'nexcess-auditd', '2.0.0'
@@ -145,3 +146,7 @@ mod 'jenkins',
 mod 'netstat',
     git: 'https://github.com/ipcrm/ipcrm-netstat.git',
     ref: '64bcee0'
+
+mod 'vra_puppet_plugin_prep',
+    git: 'https://github.com/puppetlabs/puppet-vra_puppet_plugin_prep',
+    ref: 'af2d6b5'
