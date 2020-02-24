@@ -11,6 +11,10 @@ hiera::cmdpath:
 # Redis
 profile::app::redis::bind: 127.0.0.1
 
+## 
+# Enable Package Inventory by default
+puppet_enterprise::profile::agent::package_inventory_enabled: true
+
 ##
 # Sample Website
 profile::app::sample_website::linux::enable_monitoring: false
